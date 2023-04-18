@@ -1,5 +1,7 @@
+### Configurations:
 !pip install spacy
 !python -m spacy download en_core_web_sm
+
 import spacy
 from spacy import displacy
 
