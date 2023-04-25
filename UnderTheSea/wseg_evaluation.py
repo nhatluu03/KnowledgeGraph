@@ -27,4 +27,4 @@ with open(test_file, 'r', encoding='utf-8') as test_f, open(valid_file, 'r', enc
 
 f1_metrics = f1_score(y_true, y_pred, average='weighted')
 f1_score = f1_score(y_true, y_pred, average='weighted')
-print(f'F1-score: {f1_score:.4f}')   // 0.5760
+print(f'F1-score: {f1_score:.4f}')   # 0.5760
