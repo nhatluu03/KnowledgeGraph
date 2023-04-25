@@ -1,0 +1,5 @@
+P V N CH
+N V N A A A CH
+N V V N CH
+N A N CH N C N V V N CH
+N C N V N N A CH
