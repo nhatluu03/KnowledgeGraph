@@ -1,4 +1,4 @@
-!pip install underthesea
+# !pip install underthesea
 from underthesea import word_tokenize
 from sklearn.metrics import f1_score
 import os
