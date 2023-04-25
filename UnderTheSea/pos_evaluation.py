@@ -1,7 +1,6 @@
 # !pip install underthesea
 
 from underthesea import pos_tag
-from underthesea import pos_tag
 from sklearn.metrics import f1_score
 import os
 
@@ -33,7 +32,7 @@ with open(test_file, 'r', encoding='utf-8') as test_f, open(valid_file, 'r', enc
         valid_tags = valid_line.strip().split(' ')
         
         # Map the tags to your desired output format
-#         test_tags = [map_tags(tag) for tag in test_tags]
+        test_tags = [map_tags(tag) for tag in test_tags]
 
         print(f"Sentence: " + test_line)
         print(f"Test tags: ", test_tags)
@@ -53,4 +52,4 @@ with open(test_file, 'r', encoding='utf-8') as test_f, open(valid_file, 'r', enc
 
 f1 = f1_score(y_true, y_pred, average='weighted')
 
-print(f'F1-score: {f1:.4f}')  # F1-score: 0.7477
+print(f'F1-score: {f1:.4f}')  # F1-score: 0.7671
