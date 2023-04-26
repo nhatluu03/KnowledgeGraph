@@ -1,3 +1,0 @@
-nsubj cop root nsubj nmod punct
-nsubj det:pmod root nmod obj case xcomp compound punct
-nsubj advmod root obj xcomp advmod:adj obl punct
